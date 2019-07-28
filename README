@@ -1,0 +1,5 @@
+This application allows you to monitor and alarm the temperatures of weather stations.  Monitoring temperature can let you know when outdoor activity is best, such as cycling home from work before it gets too cold.
+
+This application currently uses the Weather Underground API (wunderground.com).  Unfortunately API keys now require connecting a personal weather station.  And I'm not even sure you are allowed to do queries from stations other than your own.
+
+Dark Sky (darksky.net) is an API I would like to move this app to.
