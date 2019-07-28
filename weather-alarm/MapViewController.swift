@@ -134,7 +134,7 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
             
             for filename in filelist {
                 let srcPath:String = "\(pathFromBundle)/\(filename)"
-                if !fileManagerIs.fileExists(atPath: srcPath) {
+                if fileManagerIs.fileExists(atPath: srcPath) {
                     try? fileManagerIs.copyItem(atPath: srcPath, toPath: "\(pathDestDocs)/\(filename)")
                 }
             }
