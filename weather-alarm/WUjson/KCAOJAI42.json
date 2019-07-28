@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Ojai, CA",
+		"city":"Ojai",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"93023",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"34.445816",
+		"longitude":"-119.249702",
+		"elevation":"242.9"
+		},
+		"observation_location": {
+		"full":"Oxnard, California",
+		"city":"Oxnard",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"34.45",
+		"longitude":"-119.25",
+		"elevation":"768 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCAOJAI42",
+		"observation_time":"Last Updated on December 31, 8:19 PM PST",
+		"observation_time_rfc822":"Mon, 31 Dec 2018 20:19:18 -0800",
+		"observation_epoch":"1546316358",
+		"local_time_rfc822":"Mon, 31 Dec 2018 20:19:44 -0800",
+		"local_epoch":"1546316384",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Clear",
+		"temperature_string":"37.5 F (3.1 C)",
+		"temp_f":37.5,
+		"temp_c":3.1,
+		"relative_humidity":"60%",
+		"wind_string":"Calm",
+		"wind_dir":"SSE",
+		"wind_degrees":157,
+		"wind_mph":0,
+		"wind_gust_mph":0,
+		"wind_kph":0,
+		"wind_gust_kph":0,
+		"pressure_mb":"1013",
+		"pressure_in":"29.91",
+		"pressure_trend":"+",
+		"dewpoint_string":"25 F (-4 C)",
+		"dewpoint_f":25,
+		"dewpoint_c":-4,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"38 F (3 C)",
+		"windchill_f":"38",
+		"windchill_c":"3",
+		"feelslike_string":"38 F (3 C)",
+		"feelslike_f":"38",
+		"feelslike_c":"3",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Ojai.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCAOJAI42",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=34.445816,-119.249702",
+		"nowcast":""
+	}
+}

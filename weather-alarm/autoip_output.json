@@ -1,0 +1,328 @@
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "geolookup": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"CA",
+		"city":"Santa Barbara",
+		"tz_short":"PST",
+		"tz_long":"America/Los_Angeles",
+		"lat":"34.41999817",
+		"lon":"-119.70999908",
+		"zip":"93101",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:93101.1.99999",
+		"requesturl":"US/CA/Santa_Barbara.html",
+		"wuiurl":"https://www.wunderground.com/US/CA/Santa_Barbara.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Santa Barbara", "state":"CA", "country":"US", "icao":"KSBA", "lat":"34.43000031", "lon":"-119.83999634" }
+		,{ "city":"Santa Ynez", "state":"CA", "country":"US", "icao":"KIZA", "lat":"34.61000061", "lon":"-120.08000183" }
+		,{ "city":"Oxnard", "state":"CA", "country":"US", "icao":"KOXR", "lat":"34.20000076", "lon":"-119.20999908" }
+		,{ "city":"Camarillo", "state":"CA", "country":"US", "icao":"KCMA", "lat":"34.20999908", "lon":"-119.08999634" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Downtown",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2320",
+		"lat":34.421570,
+		"lon":-119.709717,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Downtown Santa Barbara-West of State",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2619",
+		"lat":34.422550,
+		"lon":-119.711746,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Westside (Gillespie)",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA256",
+		"lat":34.415493,
+		"lon":-119.716248,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Lennon",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2513",
+		"lat":34.428574,
+		"lon":-119.707672,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Westside",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA232",
+		"lat":34.416077,
+		"lon":-119.720589,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Westside - Mountain",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2504",
+		"lat":34.413651,
+		"lon":-119.718971,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"East Side Downtown Santa Barbara",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2502",
+		"lat":34.425201,
+		"lon":-119.696854,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Donze",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2514",
+		"lat":34.428612,
+		"lon":-119.699669,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"East Alta Mesa - Arroyo",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA278",
+		"lat":34.407055,
+		"lon":-119.706917,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Laguna",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2011",
+		"lat":34.425426,
+		"lon":-119.693642,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"West Alta Mesa",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2448",
+		"lat":34.409004,
+		"lon":-119.725273,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Alta Mesa",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2360",
+		"lat":34.407326,
+		"lon":-119.724426,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Hidden Westside",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA852",
+		"lat":34.426464,
+		"lon":-119.729874,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Upper East",
+		"city":"Goleta",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAGOLET58",
+		"lat":34.436554,
+		"lon":-119.720192,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Garden Street Academy",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA309",
+		"lat":34.438644,
+		"lon":-119.716347,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Westwood Hills, Mesa, Santa Barbara, CA",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2554",
+		"lat":34.406570,
+		"lon":-119.728668,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Mesa",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2567",
+		"lat":34.399353,
+		"lon":-119.710327,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"East Mesa",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA216",
+		"lat":34.398998,
+		"lon":-119.708000,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Lower Riviera",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA537",
+		"lat":34.433453,
+		"lon":-119.689819,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Cuesta Samarkand",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA660",
+		"lat":34.434082,
+		"lon":-119.729767,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Elings Park South",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2031",
+		"lat":34.407188,
+		"lon":-119.732224,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Samarkand",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA754",
+		"lat":34.435047,
+		"lon":-119.730782,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"EAST SAN ROQUE",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2214",
+		"lat":34.440449,
+		"lon":-119.724007,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Keck Station San Roque",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2289",
+		"lat":34.442326,
+		"lon":-119.721527,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Samarkand Hills",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2584",
+		"lat":34.436642,
+		"lon":-119.731590,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Samarkand",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2245",
+		"lat":34.437012,
+		"lon":-119.731117,
+		"distance_km":2,
+		"distance_mi":1
+		}
+		]
+		}
+		}
+	}
+}

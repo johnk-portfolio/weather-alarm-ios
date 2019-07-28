@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Summerland, CA",
+		"city":"Summerland",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"93067",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"34.456600",
+		"longitude":"-119.566223",
+		"elevation":"26.5"
+		},
+		"observation_location": {
+		"full":"Santa Barbara, California",
+		"city":"Santa Barbara",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"34.46",
+		"longitude":"-119.57",
+		"elevation":"1791 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCACARPI27",
+		"observation_time":"Last Updated on December 31, 7:56 PM PST",
+		"observation_time_rfc822":"Mon, 31 Dec 2018 19:56:40 -0800",
+		"observation_epoch":"1546315000",
+		"local_time_rfc822":"Mon, 31 Dec 2018 19:56:54 -0800",
+		"local_epoch":"1546315014",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Clear",
+		"temperature_string":"46 F (7.8 C)",
+		"temp_f":46,
+		"temp_c":7.8,
+		"relative_humidity":"56%",
+		"wind_string":"From the NE at 6.26 MPH Gusting to 7.6 MPH",
+		"wind_dir":"NE",
+		"wind_degrees":55,
+		"wind_mph":6.26,
+		"wind_gust_mph":"7.6",
+		"wind_kph":10.1,
+		"wind_gust_kph":"12.2",
+		"pressure_mb":"1013",
+		"pressure_in":"29.91",
+		"pressure_trend":"+",
+		"dewpoint_string":"31 F (-0 C)",
+		"dewpoint_f":31,
+		"dewpoint_c":-0,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"43 F (6 C)",
+		"windchill_f":"43",
+		"windchill_c":"6",
+		"feelslike_string":"43 F (6 C)",
+		"feelslike_f":"43",
+		"feelslike_c":"6",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"0",
+		"UV":"0.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Summerland.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCACARPI27",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=34.456600,-119.566223",
+		"nowcast":""
+	}
+}

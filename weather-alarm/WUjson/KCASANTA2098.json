@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Santa Barbara, CA",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"93105",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"34.446102",
+		"longitude":"-119.721268",
+		"elevation":"303.9"
+		},
+		"observation_location": {
+		"full":"Santa Barbara, California",
+		"city":"Santa Barbara",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"34.45",
+		"longitude":"-119.72",
+		"elevation":"336 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCASANTA2098",
+		"observation_time":"Last Updated on December 31, 7:51 PM PST",
+		"observation_time_rfc822":"Mon, 31 Dec 2018 19:51:49 -0800",
+		"observation_epoch":"1546314709",
+		"local_time_rfc822":"Mon, 31 Dec 2018 19:52:06 -0800",
+		"local_epoch":"1546314726",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Clear",
+		"temperature_string":"49.8 F (9.9 C)",
+		"temp_f":49.8,
+		"temp_c":9.9,
+		"relative_humidity":"43%",
+		"wind_string":"Calm",
+		"wind_dir":"SSE",
+		"wind_degrees":158,
+		"wind_mph":0,
+		"wind_gust_mph":0,
+		"wind_kph":0,
+		"wind_gust_kph":0,
+		"pressure_mb":"1012",
+		"pressure_in":"29.89",
+		"pressure_trend":"+",
+		"dewpoint_string":"28 F (-2 C)",
+		"dewpoint_f":28,
+		"dewpoint_c":-2,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"50 F (10 C)",
+		"windchill_f":"50",
+		"windchill_c":"10",
+		"feelslike_string":"50 F (10 C)",
+		"feelslike_f":"50",
+		"feelslike_c":"10",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Santa_Barbara.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCASANTA2098",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=34.446102,-119.721268",
+		"nowcast":""
+	}
+}

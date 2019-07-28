@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Goleta, CA",
+		"city":"Goleta",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"93199",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"34.436554",
+		"longitude":"-119.720192",
+		"elevation":"21.9"
+		},
+		"observation_location": {
+		"full":"Santa Barbara, California",
+		"city":"Santa Barbara",
+		"state":"California",
+		"country":"",
+		"country_iso3166":"US",
+		"latitude":"34.44",
+		"longitude":"-119.72",
+		"elevation":"111 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCAGOLET58",
+		"observation_time":"Last Updated on December 31, 7:47 PM PST",
+		"observation_time_rfc822":"Mon, 31 Dec 2018 19:47:35 -0800",
+		"observation_epoch":"1546314455",
+		"local_time_rfc822":"Mon, 31 Dec 2018 19:47:46 -0800",
+		"local_epoch":"1546314466",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Clear",
+		"temperature_string":"52.9 F (11.6 C)",
+		"temp_f":52.9,
+		"temp_c":11.6,
+		"relative_humidity":"59%",
+		"wind_string":"Calm",
+		"wind_dir":"SSE",
+		"wind_degrees":168,
+		"wind_mph":0.7,
+		"wind_gust_mph":"2.5",
+		"wind_kph":1.1,
+		"wind_gust_kph":"4.0",
+		"pressure_mb":"1012",
+		"pressure_in":"29.89",
+		"pressure_trend":"+",
+		"dewpoint_string":"39.0 F (3.9 C)",
+		"dewpoint_f":39.0,
+		"dewpoint_c":3.9,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"52.9 F (11.6 C)",
+		"feelslike_f":"52.9",
+		"feelslike_c":"11.6",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"0",
+		"UV":"0.0","precip_1hr_string":"0.00 in (0.0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":"0.0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Goleta.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCAGOLET58",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=34.436554,-119.720192",
+		"nowcast":""
+	}
+}

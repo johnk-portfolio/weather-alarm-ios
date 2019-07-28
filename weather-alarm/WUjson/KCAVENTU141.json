@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Ventura, CA",
+		"city":"Ventura",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"93003",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"34.280949",
+		"longitude":"-119.240440",
+		"elevation":"75.9"
+		},
+		"observation_location": {
+		"full":"Oxnard, California",
+		"city":"Oxnard",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"34.28",
+		"longitude":"-119.24",
+		"elevation":"443 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCAVENTU141",
+		"observation_time":"Last Updated on December 31, 8:19 PM PST",
+		"observation_time_rfc822":"Mon, 31 Dec 2018 20:19:39 -0800",
+		"observation_epoch":"1546316379",
+		"local_time_rfc822":"Mon, 31 Dec 2018 20:19:58 -0800",
+		"local_epoch":"1546316398",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Clear",
+		"temperature_string":"55.2 F (12.9 C)",
+		"temp_f":55.2,
+		"temp_c":12.9,
+		"relative_humidity":"17%",
+		"wind_string":"From the NW at 3.4 MPH Gusting to 6.9 MPH",
+		"wind_dir":"NW",
+		"wind_degrees":308,
+		"wind_mph":3.4,
+		"wind_gust_mph":"6.9",
+		"wind_kph":5.5,
+		"wind_gust_kph":"11.1",
+		"pressure_mb":"1013",
+		"pressure_in":"29.91",
+		"pressure_trend":"+",
+		"dewpoint_string":"11 F (-12 C)",
+		"dewpoint_f":11,
+		"dewpoint_c":-12,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"55.2 F (12.9 C)",
+		"feelslike_f":"55.2",
+		"feelslike_c":"12.9",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"0",
+		"UV":"0.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Ventura.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCAVENTU141",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=34.280949,-119.240440",
+		"nowcast":""
+	}
+}

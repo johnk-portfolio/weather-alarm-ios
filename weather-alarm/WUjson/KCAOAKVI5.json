@@ -1,0 +1,95 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Oak View, CA",
+		"city":"Oak View",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"93022",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"34.402939",
+		"longitude":"-119.284668",
+		"elevation":"152.1"
+		},
+		"observation_location": {
+		"full":"Oxnard, California",
+		"city":"Oxnard",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"34.40",
+		"longitude":"-119.28",
+		"elevation":"531 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCAOAKVI5",
+		"observation_time":"Last Updated on December 31, 8:03 PM PST",
+		"observation_time_rfc822":"Mon, 31 Dec 2018 20:03:36 -0800",
+		"observation_epoch":"1546315416",
+		"local_time_rfc822":"Mon, 31 Dec 2018 20:04:11 -0800",
+		"local_epoch":"1546315451",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Clear",
+		"temperature_string":"39.2 F (4.0 C)",
+		"temp_f":39.2,
+		"temp_c":4.0,
+		"relative_humidity":"77%",
+		"wind_string":"From the ENE at 1 MPH Gusting to 3.0 MPH",
+		"wind_dir":"ENE",
+		"wind_degrees":57,
+		"wind_mph":1,
+		"wind_gust_mph":"3.0",
+		"wind_kph":1.6,
+		"wind_gust_kph":"4.8",
+		"pressure_mb":"1013",
+		"pressure_in":"29.91",
+		"pressure_trend":"+",
+		"dewpoint_string":"33 F (0 C)",
+		"dewpoint_f":33,
+		"dewpoint_c":0,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"39 F (4 C)",
+		"windchill_f":"39",
+		"windchill_c":"4",
+		"feelslike_string":"39 F (4 C)",
+		"feelslike_f":"39",
+		"feelslike_c":"4",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"0",
+		"UV":"0.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"soil_temp_f": "30.0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Oak_View.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCAOAKVI5",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=34.402939,-119.284668",
+		"nowcast":""
+	}
+}

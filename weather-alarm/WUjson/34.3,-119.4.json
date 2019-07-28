@@ -1,0 +1,263 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "geolookup": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"CA",
+		"city":"Carpinteria",
+		"tz_short":"PST",
+		"tz_long":"America/Los_Angeles",
+		"lat":"34.420000",
+		"lon":"-119.440000",
+		"zip":"93013",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:93013.1.99999",
+		"requesturl":"US/CA/Carpinteria.html",
+		"wuiurl":"https://www.wunderground.com/US/CA/Carpinteria.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Santa Barbara", "state":"CA", "country":"US", "icao":"KSBA", "lat":"34.43000031", "lon":"-119.83999634" }
+		,{ "city":"Oxnard", "state":"CA", "country":"US", "icao":"KOXR", "lat":"34.20000076", "lon":"-119.20999908" }
+		,{ "city":"Camarillo", "state":"CA", "country":"US", "icao":"KCMA", "lat":"34.20999908", "lon":"-119.08999634" }
+		,{ "city":"Point Mugu", "state":"CA", "country":"US", "icao":"KNTD", "lat":"34.11999893", "lon":"-119.12000275" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Rincon",
+		"city":"Carpinteria",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACARPI15",
+		"lat":34.384109,
+		"lon":-119.477524,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Sea Coast Village",
+		"city":"Carpinteria",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACARPI12",
+		"lat":34.405556,
+		"lon":-119.511513,
+		"distance_km":6,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"The Meadow",
+		"city":"Carpinteria",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACARPI13",
+		"lat":34.407722,
+		"lon":-119.515121,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Canalino",
+		"city":"Carpinteria",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACARPI22",
+		"lat":34.403606,
+		"lon":-119.516418,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Carpinteria - Arbol Verde",
+		"city":"Carpinteria",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACARPI3",
+		"lat":34.390347,
+		"lon":-119.510986,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Carpinteria - Heath Ranch",
+		"city":"Carpinteria",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACARPI8",
+		"lat":34.406807,
+		"lon":-119.521423,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Carpinteria Marsh",
+		"city":"Carpinteria",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACARPI29",
+		"lat":34.402012,
+		"lon":-119.530777,
+		"distance_km":8,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Montecito",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA125",
+		"lat":34.441002,
+		"lon":-119.612999,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Santa Barbara Mountains",
+		"city":"Montecito",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMONTE43",
+		"lat":34.447945,
+		"lon":-119.615623,
+		"distance_km":16,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Montecito Live Oaks",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2387",
+		"lat":34.434311,
+		"lon":-119.626556,
+		"distance_km":17,
+		"distance_mi":10
+		},
+		{
+		"neighborhood":"Montecito",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA272",
+		"lat":34.432426,
+		"lon":-119.632523,
+		"distance_km":17,
+		"distance_mi":10
+		},
+		{
+		"neighborhood":"Lotusland",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2627",
+		"lat":34.442982,
+		"lon":-119.657356,
+		"distance_km":20,
+		"distance_mi":12
+		},
+		{
+		"neighborhood":"Eucalyptus Hill",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2488",
+		"lat":34.431377,
+		"lon":-119.661324,
+		"distance_km":20,
+		"distance_mi":12
+		},
+		{
+		"neighborhood":"Santa Barbara Zoo",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2527",
+		"lat":34.419636,
+		"lon":-119.664574,
+		"distance_km":20,
+		"distance_mi":12
+		},
+		{
+		"neighborhood":"200 E Mountain Dr",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA68",
+		"lat":34.453529,
+		"lon":-119.664001,
+		"distance_km":20,
+		"distance_mi":12
+		},
+		{
+		"neighborhood":"Sycamore Terrace",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2294",
+		"lat":34.445251,
+		"lon":-119.679741,
+		"distance_km":22,
+		"distance_mi":13
+		},
+		{
+		"neighborhood":"Upper East Riviera",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA129",
+		"lat":34.442684,
+		"lon":-119.682083,
+		"distance_km":22,
+		"distance_mi":13
+		},
+		{
+		"neighborhood":"Rincon Mtn Paraglide Farm",
+		"city":"Carpinteria",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACARPI36",
+		"lat":34.379219,
+		"lon":-119.434662,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"331 Conejo Road next door to Parma Park",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2625",
+		"lat":34.445107,
+		"lon":-119.678207,
+		"distance_km":22,
+		"distance_mi":13
+		},
+		{
+		"neighborhood":"Toro Canyon",
+		"city":"Carpinteria",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACARPI27",
+		"lat":34.456600,
+		"lon":-119.566223,
+		"distance_km":12,
+		"distance_mi":7
+		}
+		]
+		}
+		}
+	}
+}

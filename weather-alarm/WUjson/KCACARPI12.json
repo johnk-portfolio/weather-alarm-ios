@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Carpinteria, CA",
+		"city":"Carpinteria",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"93013",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"34.405556",
+		"longitude":"-119.511513",
+		"elevation":"32.9"
+		},
+		"observation_location": {
+		"full":"Oxnard, California",
+		"city":"Oxnard",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"34.41",
+		"longitude":"-119.51",
+		"elevation":"46 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCACARPI12",
+		"observation_time":"Last Updated on December 31, 7:55 PM PST",
+		"observation_time_rfc822":"Mon, 31 Dec 2018 19:55:48 -0800",
+		"observation_epoch":"1546314948",
+		"local_time_rfc822":"Mon, 31 Dec 2018 19:56:35 -0800",
+		"local_epoch":"1546314995",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Clear",
+		"temperature_string":"46.8 F (8.2 C)",
+		"temp_f":46.8,
+		"temp_c":8.2,
+		"relative_humidity":"76%",
+		"wind_string":"Calm",
+		"wind_dir":"ESE",
+		"wind_degrees":112,
+		"wind_mph":0,
+		"wind_gust_mph":0,
+		"wind_kph":0,
+		"wind_gust_kph":0,
+		"pressure_mb":"1012",
+		"pressure_in":"29.90",
+		"pressure_trend":"+",
+		"dewpoint_string":"40 F (4 C)",
+		"dewpoint_f":40,
+		"dewpoint_c":4,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"47 F (8 C)",
+		"windchill_f":"47",
+		"windchill_c":"8",
+		"feelslike_string":"47 F (8 C)",
+		"feelslike_f":"47",
+		"feelslike_c":"8",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Carpinteria.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCACARPI12",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=34.405556,-119.511513",
+		"nowcast":""
+	}
+}

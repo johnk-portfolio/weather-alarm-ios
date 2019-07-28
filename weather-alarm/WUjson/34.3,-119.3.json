@@ -1,0 +1,362 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "geolookup": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"CA",
+		"city":"Goleta",
+		"tz_short":"PST",
+		"tz_long":"America/Los_Angeles",
+		"lat":"34.43999863",
+		"lon":"-119.83000183",
+		"zip":"93116",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:93116.1.99999",
+		"requesturl":"US/CA/Goleta.html",
+		"wuiurl":"https://www.wunderground.com/US/CA/Goleta.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Santa Barbara", "state":"CA", "country":"US", "icao":"KSBA", "lat":"34.43000031", "lon":"-119.83999634" }
+		,{ "city":"Santa Ynez", "state":"CA", "country":"US", "icao":"KIZA", "lat":"34.61000061", "lon":"-120.08000183" }
+		,{ "city":"Oxnard", "state":"CA", "country":"US", "icao":"KOXR", "lat":"34.20000076", "lon":"-119.20999908" }
+		,{ "city":"Lompoc", "state":"CA", "country":"US", "icao":"KLPC", "lat":"34.66999817", "lon":"-120.47000122" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Guava/La Patera",
+		"city":"Goleta",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAGOLET18",
+		"lat":34.441204,
+		"lon":-119.839752,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Goleta",
+		"city":"Goleta",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAGOLET53",
+		"lat":34.448448,
+		"lon":-119.830093,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Fairview and Cathedral Oaks",
+		"city":"Goleta",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAGOLET51",
+		"lat":34.451473,
+		"lon":-119.827202,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Goleta Food Forest (Barn)",
+		"city":"Goleta",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAGOLET8",
+		"lat":34.452744,
+		"lon":-119.829697,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Goleta Food Forest (Hill)",
+		"city":"Goleta",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAGOLET52",
+		"lat":34.452972,
+		"lon":-119.828056,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Lake Los Carneros",
+		"city":"Goleta",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAGOLET50",
+		"lat":34.445114,
+		"lon":-119.846367,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Noleta",
+		"city":"Goleta",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAGOLET47",
+		"lat":34.452785,
+		"lon":-119.821289,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Goleta East",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA356",
+		"lat":34.451035,
+		"lon":-119.816841,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"N. Kellogg - AF6VU",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA542",
+		"lat":34.451317,
+		"lon":-119.815857,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"holiday hill south",
+		"city":"Goleta",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAGOLET46",
+		"lat":34.461487,
+		"lon":-119.832001,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Santa Barbralita",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2539",
+		"lat":34.428051,
+		"lon":-119.806618,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Northern Goleta",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA218",
+		"lat":34.457211,
+		"lon":-119.810623,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Mountain View",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2489",
+		"lat":34.458324,
+		"lon":-119.810966,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"North Patterson",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA1980",
+		"lat":34.464447,
+		"lon":-119.820488,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Blueberry Hill Park",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2256",
+		"lat":34.446640,
+		"lon":-119.797798,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Ellison Hall",
+		"city":"Isla Vista",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAISLAV4",
+		"lat":34.415478,
+		"lon":-119.845284,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Rancho Del Ciervo",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2157",
+		"lat":34.466484,
+		"lon":-119.817123,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Eastern Goleta Valley",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAGOLET5",
+		"lat":34.438629,
+		"lon":-119.795029,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"More Mesa",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2244",
+		"lat":34.418377,
+		"lon":-119.805588,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"N San Marcos Rd",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2078",
+		"lat":34.455746,
+		"lon":-119.796593,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Park Highlands",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA119",
+		"lat":34.454601,
+		"lon":-119.790428,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Twinridge",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2560",
+		"lat":34.467659,
+		"lon":-119.799149,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Via Vistosa",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA657",
+		"lat":34.431000,
+		"lon":-119.781616,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"El Encanto Heights",
+		"city":"Goleta",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAGOLET85",
+		"lat":34.437378,
+		"lon":-119.885033,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Via Esperanza",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2148",
+		"lat":34.426170,
+		"lon":-119.776253,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Foothill Open Space",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA147",
+		"lat":34.444660,
+		"lon":-119.771400,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"santa barbara shores",
+		"city":"Goleta",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAGOLET59",
+		"lat":34.425209,
+		"lon":-119.887833,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Forest Drive",
+		"city":"Goleta",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAGOLET63",
+		"lat":34.440849,
+		"lon":-119.890541,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"University Circle",
+		"city":"Santa Barbara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2547",
+		"lat":34.445415,
+		"lon":-119.814713,
+		"distance_km":1,
+		"distance_mi":0
+		}
+		]
+		}
+		}
+	}
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>API Keys</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Google Maps</string>
+			<key>Key</key>
+			<string>googleApiKey</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>DefaultValue</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Weather Underground</string>
+			<key>Key</key>
+			<string>WuApiKey</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>DefaultValue</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Background App Refresh</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Minutes (incr. to save bwdith)</string>
+			<key>Key</key>
+			<string>BackgroundFetchMinutes</string>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>DefaultValue</key>
+			<string>10</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Save/Load JSON (WU shutting down)</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Load JSON from file (when available)</string>
+			<key>Key</key>
+			<string>APIFromDisk</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Save JSON to file</string>
+			<key>Key</key>
+			<string>APIToDisk</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+	</array>
+	<key>Title</key>
+	<string>Weather Alarm</string>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
