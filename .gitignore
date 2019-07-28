@@ -1,0 +1,22 @@
+## Build generated
+build/
+DerivedData
+build.xcarchive
+.DS_Store
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+xcuserdata
+
+## Other
+*.xccheckout
+*.xcuserstate
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+
+# CocoaPods
+Pods/
