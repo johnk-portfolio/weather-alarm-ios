@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00F9BCA930BD4107FEC32DAF /* Pods_weather_alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CD804E39A64867C6E12B2E /* Pods_weather_alarm.framework */; };
 		1C121FA81A2461B500329931 /* StationMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C121FA71A2461B500329931 /* StationMarker.swift */; };
 		1C121FB11A24BE3500329931 /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C121FB01A24BE3500329931 /* LRUCache.swift */; };
 		1C14F1A51A32D78000596691 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1C14F1A41A32D78000596691 /* Settings.bundle */; };
@@ -34,6 +35,7 @@
 		A2DCDCB71A089C8300029855 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DCDCB61A089C8300029855 /* QuartzCore.framework */; };
 		A2DCDCB91A089C8F00029855 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DCDCB81A089C8F00029855 /* SystemConfiguration.framework */; };
 		AF608AD721DB42E70097C93A /* WUjson in Resources */ = {isa = PBXBuildFile; fileRef = AF608AD621DB42E60097C93A /* WUjson */; };
+		D8451724D868C861695B13E6 /* Pods_weather_alarmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A46423A75E9964133B4BABC /* Pods_weather_alarmTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +66,9 @@
 		712D945E19774FBB0087530D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		712D946419774FBB0087530D /* weather-alarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "weather-alarmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		716A4272197754C3003BD279 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		7A46423A75E9964133B4BABC /* Pods_weather_alarmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weather_alarmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB67CCBC0BB6C3B5E8297A2 /* Pods-weather-alarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weather-alarm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weather-alarm/Pods-weather-alarm.debug.xcconfig"; sourceTree = "<group>"; };
+		80CD804E39A64867C6E12B2E /* Pods_weather_alarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weather_alarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28F5EDB1A1AF3DB00127417 /* weather-alarm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "weather-alarm-Bridging-Header.h"; sourceTree = "<group>"; };
 		A28F5EDE1A1AF7B100127417 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A2DCDCA21A089C2900029855 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -101,6 +105,7 @@
 				A2DCDCA71A089C3A00029855 /* CoreLocation.framework in Frameworks */,
 				A2DCDCA51A089C3100029855 /* CoreData.framework in Frameworks */,
 				A2DCDCA31A089C2900029855 /* AVFoundation.framework in Frameworks */,
+				00F9BCA930BD4107FEC32DAF /* Pods_weather_alarm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8451724D868C861695B13E6 /* Pods_weather_alarmTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +230,8 @@
 				A2DCDCB61A089C8300029855 /* QuartzCore.framework */,
 				A2DCDCB81A089C8F00029855 /* SystemConfiguration.framework */,
 				A28F5EDB1A1AF3DB00127417 /* weather-alarm-Bridging-Header.h */,
+				80CD804E39A64867C6E12B2E /* Pods_weather_alarm.framework */,
+				7A46423A75E9964133B4BABC /* Pods_weather_alarmTests.framework */,
 			);
 			name = Frameworks;
 			path = "weather-alarm";

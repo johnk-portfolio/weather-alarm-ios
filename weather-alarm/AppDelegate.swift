@@ -4,15 +4,21 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
 	var window: UIWindow?
-	var googleMapsApiKey = "AIzaSyAF68_WPiC3WN0YipyyEkyvqoxs708c97s"
+    var googleMapsApiKey = "best to put your secret key in Product / Scheme / Edit Scheme... Run / Environment Variables, add GOOGLE_API_KEY.  Ensure that the 'Shared' checkbox (bottom middle) is disabled.  This puts it into weather-alarm.xcodeproj/xcuserdata/yourname.xcuserdatad/xcschemes/xcschememanagement.plist.  xcuserdata is in .gitignore"
 	
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 		
 		// Google API key
+        // Override with Xcode environment variable, if present
+        let schemaKey = getEnvironmentVar("GOOGLE_API_KEY")
+        if (schemaKey != nil) {
+            googleMapsApiKey = schemaKey!
+        }
+        
 		// Settings app value overrides, if present (from Settings plist)
 		let settings = UserDefaults.init()
         let settingsGoogleKey = settings.object(forKey: "googleApiKey") as? String
-		if (settingsGoogleKey !=  nil) {
+		if (settingsGoogleKey != nil) {
 			googleMapsApiKey = settingsGoogleKey!
 		}
 		GMSServices.provideAPIKey(googleMapsApiKey)
@@ -122,4 +128,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		}
 	}
 		
+    func getEnvironmentVar(_ name: String) -> String? {
+        guard let rawValue = getenv(name) else { return nil }
+        return String(utf8String: rawValue)
+    }
 }
